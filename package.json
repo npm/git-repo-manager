@@ -1,0 +1,29 @@
+{
+  "name": "git-repo-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "git-repo-manager": "./cli.js"
+  },
+  "scripts": {
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rebecca Turner <me@re-becca.org>",
+  "license": "ISC",
+  "dependencies": {
+    "aproba": "^1.0.1",
+    "chmodr": "^0.1.0",
+    "chownr": "0.0.1",
+    "iferr": "^0.1.5",
+    "mkdirp": "^0.5.0",
+    "normalize-git-url": "^1.0.0",
+    "unique-filename": "^1.0.0",
+    "which": "^1.0.9",
+    "yargs": "^3.8.0"
+  },
+  "devDependencies": {
+    "standard": "^3.7.3"
+  }
+}
